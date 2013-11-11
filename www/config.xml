@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="net.corilla.m" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <icon src="icon.png" width="128" height="128" />
+    <name>Corilla</name>
+    <description>
+        Interact with unified activity-management services provided by corilla.net
+    </description>
+    <author email="cordova2013@corilla.net" href="http://corilla.net">
+        Corilla Dev Team
+    </author>
+    <content src="index.html" />
+    <access origin="http://corilla.net/*" />
+    <preference name="fullscreen" value="false" />
+    <preference name="webviewbounce" value="true" />
+</widget>

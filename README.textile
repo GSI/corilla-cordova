@@ -1,0 +1,8 @@
+h1. Corilla Mobile App
+
+
+Official mobile application for unified activity-management via corilla.net
+
+pre. cordova platform add android &&
+cordova build android
+adb -s ${DEVICE} install -r ./platforms/android/bin/Corilla-debug.apk
